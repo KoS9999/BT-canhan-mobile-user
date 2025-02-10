@@ -6,7 +6,7 @@ import MainNavigator from './src/navigators/MainNavigator';
 import { StatusBar } from 'react-native';
 import { useAsyncStorage } from '@react-native-async-storage/async-storage';
 const App = () => {
-//sử dụng usestate để lưu thời gian 1.5 giây 
+//sử dụng usestate để lưu thời gian 5 giây y
   const [isShowSplash, setIsShowSplash] = useState(true);
 
   const [accessToken, setAccessToken] = useState('');
